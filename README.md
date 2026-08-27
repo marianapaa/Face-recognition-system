@@ -11,9 +11,9 @@ The system simulates a strict security checkpoint: to enter a "restricted labora
 * **NumPy** & **Pygame** (for data handling and audio feedback)
 * **SQL** (database management)
 
-##  Quick Start
+**Quick Start**
 If you want to test the system locally, make sure you have the requirements installed, and use these main commands:
 
-**1. Capture facial data (create your profile):**
+1. Capture facial data (create your profile):
 ```bash
-python main.py capture-name "Captain Demming" --user-id 1-samples 30
+python main.py capture-name "Captain Demming" --user-id 1 --samples 30
